@@ -66,6 +66,86 @@
 
 </url>
 
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/Aima.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/Gravure.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/Taniku.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/Koke.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/Handmade.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/DriveRecorder.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/Dance.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+  <loc>http://amazondeals.github.io/twpiku/Accident.html</loc>
+
+  <priority>0.8</priority>
+
+  <changefreq>daily</changefreq>
+
+</url>
+
 
 
 </urlset>

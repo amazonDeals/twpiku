@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <!--- basic page needs    ================================================== -->
+    <meta charset="utf-8">
+    <title>ついピクピク</title>
+    <meta content="twitter,動画,,危険運転,逆走,ドラレコ,自転車,ドローン,小鳥,インコ" name="keywords">
+    <meta content="ツイッターから動画を集めています" name="description">
+    <meta name="author" content="">
+    <!-- mobile specific metas    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&amp;subset=cyrillic,japanese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <!-- CSS    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- script    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <!-- favicons    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+  /* CSS for LQIP blur added by Yama190220
+   use calss "lazyload blur" instead of "lazyload" */
+.blur {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    transition: filter 600ms, -webkit-filter 600ms;
+}
+.blur.lazyloaded {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+.yy_title {
+    padding: 0.4em 0.5em; /* 文字の上下 左右の余白 */
+    color: #494949; /* 文字色 */
+    /* background: #f4f4f4; */ /* 背景色 */
+    border-left: solid 5px #7db4e6; /* 左線 */
+    border-bottom: solid 3px #d7d7d7; /* 下線 */
+}
+.yy_marker {
+    background: linear-gradient(transparent 20%, #ff1493 20%);
+}
+.yy_date {
+    text-align: left;
+    color: #ff6347;
+}
+.yy_author {
+    text-align: right;
+    color: #5f9ea0;
+}
+.yy_pubdate {
+    text-align: right;
+    color: #006400;
+}
+</style>
+<body id="top">
+    <!-- pageheader    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+        <header class="header">
+            <div class="header__content row">
+	      <h1 style="color: white;">ついピクピク</h1>
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+                <nav class="header__nav-wrap">
+                    <h2 class="header__nav-heading h6">ページ目次</h2>
+                    <ul class="header__nav">
+                        <li><a href="index.html" title="">TOPページ</a></li>
+                        <li><a href="DriveRecorder_TOP.html" title="">『ドラレコ』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『ドラレコ』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="DriveRecorder_20190629.html">2019年06月29日</a></li>
+                            <li><a href="DriveRecorder_20190628.html">2019年06月28日</a></li>
+                            <li><a href="DriveRecorder_20190627.html">2019年06月27日</a></li>
+                            <li><a href="DriveRecorder_20190626.html">2019年06月26日</a></li>
+                            <li><a href="DriveRecorder_20190625.html">2019年06月25日</a></li>
+                            <li><a href="DriveRecorder_20190624.html">2019年06月24日</a></li>
+                            <li><a href="DriveRecorder_20190623.html">2019年06月23日</a></li>
+                            <li><a href="DriveRecorder_20190622.html">2019年06月22日</a></li>
+                            <li><a href="DriveRecorder_20190621.html">2019年06月21日</a></li>
+                            <li><a href="DriveRecorder_20190620.html">2019年06月20日</a></li>
+                            <li><a href="DriveRecorder_20190602.html">2019年06月02日</a></li>
+                            <li><a href="DriveRecorder_20190522.html">2019年05月22日</a></li>
+                            <li><a href="DriveRecorder_20190512.html">2019年05月12日</a></li>
+                            <li><a href="DriveRecorder_20190509.html">2019年05月09日</a></li>
+                            <li><a href="DriveRecorder_20190501.html">2019年05月01日</a></li>
+                            <li><a href="DriveRecorder_20190421.html">2019年04月21日</a></li>
+                            <li><a href="DriveRecorder_20190413.html">2019年04月13日</a></li>
+                            <li><a href="DriveRecorder_20190407.html">2019年04月07日</a></li>
+                            <li><a href="DriveRecorder_20190402.html">2019年04月02日</a></li>
+                            <li><a href="DriveRecorder_20190221.html">2019年02月21日</a></li>
+                            <li><a href="DriveRecorder_20190207.html">2019年02月07日</a></li>
+                            <li><a href="DriveRecorder_20190121.html">2019年01月21日</a></li>
+                            <li><a href="DriveRecorder_20181217.html">2018年12月17日</a></li>
+                            <li><a href="DriveRecorder_20181215.html">2018年12月15日</a></li>
+                            <li><a href="DriveRecorder_20181214.html">2018年12月14日</a></li>
+                            <li><a href="DriveRecorder_20181212.html">2018年12月12日</a></li>
+                            <li><a href="DriveRecorder_20181210.html">2018年12月10日</a></li>
+                            <li><a href="DriveRecorder_20181020.html">2018年10月20日</a></li>
+                            <li><a href="DriveRecorder_20181002.html">2018年10月02日</a></li>
+                            <li><a href="DriveRecorder_20180819.html">2018年08月19日</a></li>
+                            <li><a href="DriveRecorder_20180816.html">2018年08月16日</a></li>
+                            <li><a href="DriveRecorder_20180812.html">2018年08月12日</a></li>
+                            <li><a href="DriveRecorder_20180811.html">2018年08月11日</a></li>
+                            <li><a href="DriveRecorder_20180422.html">2018年04月22日</a></li>
+                            <li><a href="DriveRecorder_20180408.html">2018年04月08日</a></li>
+                            <li><a href="DriveRecorder_20171120.html">2017年11月20日</a></li>
+                            <li><a href="DriveRecorder_20171011.html">2017年10月11日</a></li>
+                            <li><a href="DriveRecorder_20171005.html">2017年10月05日</a></li>
+                            <li><a href="DriveRecorder_20170917.html">2017年09月17日</a></li>
+                            <li><a href="DriveRecorder_20170909.html">2017年09月09日</a></li>
+                            <li><a href="DriveRecorder_20170626.html">2017年06月26日</a></li>
+                            <li><a href="DriveRecorder_20170521.html">2017年05月21日</a></li>
+                            <li><a href="DriveRecorder_20170327.html">2017年03月27日</a></li>
+                            <li><a href="DriveRecorder_20170128.html">2017年01月28日</a></li>
+                            <li><a href="DriveRecorder_20170124.html">2017年01月24日</a></li>
+                            <li><a href="DriveRecorder_20170110.html">2017年01月10日</a></li>
+                            <li><a href="DriveRecorder_20161028.html">2016年10月28日</a></li>
+                            <li><a href="DriveRecorder_20160826.html">2016年08月26日</a></li>
+                            <li><a href="DriveRecorder_20160814.html">2016年08月14日</a></li>
+                            <li><a href="DriveRecorder_20160811.html">2016年08月11日</a></li>
+                            <li><a href="DriveRecorder_20160726.html">2016年07月26日</a></li>
+                            <li><a href="DriveRecorder_20160710.html">2016年07月10日</a></li>
+                            <li><a href="DriveRecorder_20160630.html">2016年06月30日</a></li>
+                            <li><a href="DriveRecorder_20160618.html">2016年06月18日</a></li>
+                            <li><a href="DriveRecorder_20160508.html">2016年05月08日</a></li>
+                            <li><a href="DriveRecorder_20160401.html">2016年04月01日</a></li>
+                            <li><a href="DriveRecorder_20160122.html">2016年01月22日</a></li>
+                            <li><a href="DriveRecorder_20151211.html">2015年12月11日</a></li>
+                            <li><a href="DriveRecorder_20151123.html">2015年11月23日</a></li>
+                            <li><a href="DriveRecorder_20150907.html">2015年09月07日</a></li>
+			         </ul>
+                        </li>
+                        <li><a href="Budgie_TOP.html" title="">『インコ』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『インコ』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="Budgie_20190629.html">2019年06月29日</a></li>
+                            <li><a href="Budgie_20190628.html">2019年06月28日</a></li>
+                            <li><a href="Budgie_20190627.html">2019年06月27日</a></li>
+                            <li><a href="Budgie_20190626.html">2019年06月26日</a></li>
+                            <li><a href="Budgie_20190625.html">2019年06月25日</a></li>
+                            <li><a href="Budgie_20190624.html">2019年06月24日</a></li>
+                            <li><a href="Budgie_20190623.html">2019年06月23日</a></li>
+                            <li><a href="Budgie_20190622.html">2019年06月22日</a></li>
+                            <li><a href="Budgie_20190621.html">2019年06月21日</a></li>
+                            <li><a href="Budgie_20190620.html">2019年06月20日</a></li>
+                            <li><a href="Budgie_20190619.html">2019年06月19日</a></li>
+			         </ul>
+                        </li>
+                        <li><a href="Drone_TOP.html" title="">『ドローン』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『ドローン』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="Drone_20190628.html">2019年06月28日</a></li>
+                            <li><a href="Drone_20190627.html">2019年06月27日</a></li>
+                            <li><a href="Drone_20190626.html">2019年06月26日</a></li>
+                            <li><a href="Drone_20190625.html">2019年06月25日</a></li>
+                            <li><a href="Drone_20190624.html">2019年06月24日</a></li>
+                            <li><a href="Drone_20190623.html">2019年06月23日</a></li>
+                            <li><a href="Drone_20190622.html">2019年06月22日</a></li>
+                            <li><a href="Drone_20190621.html">2019年06月21日</a></li>
+                            <li><a href="Drone_20190620.html">2019年06月20日</a></li>
+                            <li><a href="Drone_20190618.html">2019年06月18日</a></li>
+                            <li><a href="Drone_20190617.html">2019年06月17日</a></li>
+                            <li><a href="Drone_20190616.html">2019年06月16日</a></li>
+                            <li><a href="Drone_20190614.html">2019年06月14日</a></li>
+                            <li><a href="Drone_20190612.html">2019年06月12日</a></li>
+                            <li><a href="Drone_20190611.html">2019年06月11日</a></li>
+                            <li><a href="Drone_20190610.html">2019年06月10日</a></li>
+                            <li><a href="Drone_20190609.html">2019年06月09日</a></li>
+                            <li><a href="Drone_20190608.html">2019年06月08日</a></li>
+                            <li><a href="Drone_20190606.html">2019年06月06日</a></li>
+                            <li><a href="Drone_20190605.html">2019年06月05日</a></li>
+                            <li><a href="Drone_20190604.html">2019年06月04日</a></li>
+                            <li><a href="Drone_20190603.html">2019年06月03日</a></li>
+                            <li><a href="Drone_20190601.html">2019年06月01日</a></li>
+                            <li><a href="Drone_20190531.html">2019年05月31日</a></li>
+                            <li><a href="Drone_20190530.html">2019年05月30日</a></li>
+                            <li><a href="Drone_20190529.html">2019年05月29日</a></li>
+                            <li><a href="Drone_20190528.html">2019年05月28日</a></li>
+                            <li><a href="Drone_20190527.html">2019年05月27日</a></li>
+                            <li><a href="Drone_20190526.html">2019年05月26日</a></li>
+                            <li><a href="Drone_20190525.html">2019年05月25日</a></li>
+                            <li><a href="Drone_20190524.html">2019年05月24日</a></li>
+			         </ul>
+                        </li>
+                        <li><a href="Annoying_TOP.html" title="">『迷惑行為』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『迷惑行為』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="Annoying_20190629.html">2019年06月29日</a></li>
+                            <li><a href="Annoying_20190628.html">2019年06月28日</a></li>
+                            <li><a href="Annoying_20190627.html">2019年06月27日</a></li>
+                            <li><a href="Annoying_20190626.html">2019年06月26日</a></li>
+                            <li><a href="Annoying_20190625.html">2019年06月25日</a></li>
+                            <li><a href="Annoying_20190624.html">2019年06月24日</a></li>
+                            <li><a href="Annoying_20190623.html">2019年06月23日</a></li>
+                            <li><a href="Annoying_20190622.html">2019年06月22日</a></li>
+                            <li><a href="Annoying_20190621.html">2019年06月21日</a></li>
+                            <li><a href="Annoying_20190620.html">2019年06月20日</a></li>
+                            <li><a href="Annoying_20190619.html">2019年06月19日</a></li>
+                            <li><a href="Annoying_20190618.html">2019年06月18日</a></li>
+                            <li><a href="Annoying_20190617.html">2019年06月17日</a></li>
+                            <li><a href="Annoying_20190613.html">2019年06月13日</a></li>
+                            <li><a href="Annoying_20190612.html">2019年06月12日</a></li>
+                            <li><a href="Annoying_20190611.html">2019年06月11日</a></li>
+                            <li><a href="Annoying_20190610.html">2019年06月10日</a></li>
+                            <li><a href="Annoying_20190604.html">2019年06月04日</a></li>
+			         </ul>
+                        </li>
+                        <li><a href="GoPro_TOP.html" title="">『ゴープロ』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『ゴープロ』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="GoPro_20190629.html">2019年06月29日</a></li>
+                            <li><a href="GoPro_20190628.html">2019年06月28日</a></li>
+                            <li><a href="GoPro_20190627.html">2019年06月27日</a></li>
+                            <li><a href="GoPro_20190625.html">2019年06月25日</a></li>
+                            <li><a href="GoPro_20190623.html">2019年06月23日</a></li>
+                            <li><a href="GoPro_20190616.html">2019年06月16日</a></li>
+                            <li><a href="GoPro_20190614.html">2019年06月14日</a></li>
+                            <li><a href="GoPro_20190609.html">2019年06月09日</a></li>
+                            <li><a href="GoPro_20190608.html">2019年06月08日</a></li>
+                            <li><a href="GoPro_20190606.html">2019年06月06日</a></li>
+                            <li><a href="GoPro_20190605.html">2019年06月05日</a></li>
+                            <li><a href="GoPro_20190603.html">2019年06月03日</a></li>
+                            <li><a href="GoPro_20190602.html">2019年06月02日</a></li>
+                            <li><a href="GoPro_20190601.html">2019年06月01日</a></li>
+                            <li><a href="GoPro_20190531.html">2019年05月31日</a></li>
+                            <li><a href="GoPro_20190530.html">2019年05月30日</a></li>
+                            <li><a href="GoPro_20190528.html">2019年05月28日</a></li>
+                            <li><a href="GoPro_20190525.html">2019年05月25日</a></li>
+                            <li><a href="GoPro_20190524.html">2019年05月24日</a></li>
+                            <li><a href="GoPro_20190523.html">2019年05月23日</a></li>
+                            <li><a href="GoPro_20190522.html">2019年05月22日</a></li>
+                            <li><a href="GoPro_20190520.html">2019年05月20日</a></li>
+                            <li><a href="GoPro_20190519.html">2019年05月19日</a></li>
+                            <li><a href="GoPro_20190518.html">2019年05月18日</a></li>
+                            <li><a href="GoPro_20190517.html">2019年05月17日</a></li>
+                            <li><a href="GoPro_20190516.html">2019年05月16日</a></li>
+                            <li><a href="GoPro_20190515.html">2019年05月15日</a></li>
+                            <li><a href="GoPro_20190514.html">2019年05月14日</a></li>
+                            <li><a href="GoPro_20190513.html">2019年05月13日</a></li>
+                            <li><a href="GoPro_20190512.html">2019年05月12日</a></li>
+                            <li><a href="GoPro_20190510.html">2019年05月10日</a></li>
+                            <li><a href="GoPro_20190509.html">2019年05月09日</a></li>
+                            <li><a href="GoPro_20190507.html">2019年05月07日</a></li>
+                            <li><a href="GoPro_20190506.html">2019年05月06日</a></li>
+                            <li><a href="GoPro_20190504.html">2019年05月04日</a></li>
+                            <li><a href="GoPro_20190502.html">2019年05月02日</a></li>
+                            <li><a href="GoPro_20190501.html">2019年05月01日</a></li>
+                            <li><a href="GoPro_20190430.html">2019年04月30日</a></li>
+                            <li><a href="GoPro_20190428.html">2019年04月28日</a></li>
+                            <li><a href="GoPro_20190425.html">2019年04月25日</a></li>
+                            <li><a href="GoPro_20190424.html">2019年04月24日</a></li>
+                            <li><a href="GoPro_20190423.html">2019年04月23日</a></li>
+                            <li><a href="GoPro_20190422.html">2019年04月22日</a></li>
+                            <li><a href="GoPro_20190421.html">2019年04月21日</a></li>
+                            <li><a href="GoPro_20190420.html">2019年04月20日</a></li>
+                            <li><a href="GoPro_20190418.html">2019年04月18日</a></li>
+                            <li><a href="GoPro_20190417.html">2019年04月17日</a></li>
+                            <li><a href="GoPro_20190416.html">2019年04月16日</a></li>
+                            <li><a href="GoPro_20190415.html">2019年04月15日</a></li>
+                            <li><a href="GoPro_20190413.html">2019年04月13日</a></li>
+                            <li><a href="GoPro_20190412.html">2019年04月12日</a></li>
+                            <li><a href="GoPro_20190410.html">2019年04月10日</a></li>
+                            <li><a href="GoPro_20190409.html">2019年04月09日</a></li>
+                            <li><a href="GoPro_20190406.html">2019年04月06日</a></li>
+                            <li><a href="GoPro_20190404.html">2019年04月04日</a></li>
+                            <li><a href="GoPro_20190402.html">2019年04月02日</a></li>
+                            <li><a href="GoPro_20190331.html">2019年03月31日</a></li>
+			         </ul>
+                        </li>
+                        <li><a href="Timelapse_TOP.html" title="">『タイムラプス』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『タイムラプス』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="Timelapse_20190628.html">2019年06月28日</a></li>
+                            <li><a href="Timelapse_20190627.html">2019年06月27日</a></li>
+                            <li><a href="Timelapse_20190626.html">2019年06月26日</a></li>
+                            <li><a href="Timelapse_20190623.html">2019年06月23日</a></li>
+                            <li><a href="Timelapse_20190622.html">2019年06月22日</a></li>
+                            <li><a href="Timelapse_20190620.html">2019年06月20日</a></li>
+                            <li><a href="Timelapse_20190619.html">2019年06月19日</a></li>
+                            <li><a href="Timelapse_20190618.html">2019年06月18日</a></li>
+                            <li><a href="Timelapse_20190617.html">2019年06月17日</a></li>
+                            <li><a href="Timelapse_20190616.html">2019年06月16日</a></li>
+                            <li><a href="Timelapse_20190615.html">2019年06月15日</a></li>
+                            <li><a href="Timelapse_20190614.html">2019年06月14日</a></li>
+                            <li><a href="Timelapse_20190613.html">2019年06月13日</a></li>
+                            <li><a href="Timelapse_20190611.html">2019年06月11日</a></li>
+                            <li><a href="Timelapse_20190608.html">2019年06月08日</a></li>
+			         </ul>
+                        </li>
+                        <li><a href="Flooded_TOP.html" title="">『冠水』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『冠水』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="Flooded_20190629.html">2019年06月29日</a></li>
+                            <li><a href="Flooded_20190628.html">2019年06月28日</a></li>
+                            <li><a href="Flooded_20190627.html">2019年06月27日</a></li>
+                            <li><a href="Flooded_20190626.html">2019年06月26日</a></li>
+                            <li><a href="Flooded_20190624.html">2019年06月24日</a></li>
+                            <li><a href="Flooded_20190623.html">2019年06月23日</a></li>
+                            <li><a href="Flooded_20190622.html">2019年06月22日</a></li>
+                            <li><a href="Flooded_20190621.html">2019年06月21日</a></li>
+                            <li><a href="Flooded_20190620.html">2019年06月20日</a></li>
+                            <li><a href="Flooded_20190619.html">2019年06月19日</a></li>
+			         </ul>
+                        </li>
+                        <li><a href="Fire_TOP.html" title="">『火事』TOPページ</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">『火事』動画を投稿日時で選ぶ</a>
+                            <ul class="sub-menu">
+                            <li><a href="Fire_20190629.html">2019年06月29日</a></li>
+                            <li><a href="Fire_20190628.html">2019年06月28日</a></li>
+                            <li><a href="Fire_20190627.html">2019年06月27日</a></li>
+                            <li><a href="Fire_20190626.html">2019年06月26日</a></li>
+                            <li><a href="Fire_20190625.html">2019年06月25日</a></li>
+                            <li><a href="Fire_20190624.html">2019年06月24日</a></li>
+                            <li><a href="Fire_20190623.html">2019年06月23日</a></li>
+                            <li><a href="Fire_20190622.html">2019年06月22日</a></li>
+                            <li><a href="Fire_20190621.html">2019年06月21日</a></li>
+                            <li><a href="Fire_20190620.html">2019年06月20日</a></li>
+                            <li><a href="Fire_20190619.html">2019年06月19日</a></li>
+                            <li><a href="Fire_20190606.html">2019年06月06日</a></li>
+                            <li><a href="Fire_20190527.html">2019年05月27日</a></li>
+                            <li><a href="Fire_20190518.html">2019年05月18日</a></li>
+                            <li><a href="Fire_20190516.html">2019年05月16日</a></li>
+                            <li><a href="Fire_20190515.html">2019年05月15日</a></li>
+                            <li><a href="Fire_20190514.html">2019年05月14日</a></li>
+                            <li><a href="Fire_20190507.html">2019年05月07日</a></li>
+                            <li><a href="Fire_20190502.html">2019年05月02日</a></li>
+                            <li><a href="Fire_20190423.html">2019年04月23日</a></li>
+                            <li><a href="Fire_20190420.html">2019年04月20日</a></li>
+                            <li><a href="Fire_20190416.html">2019年04月16日</a></li>
+                            <li><a href="Fire_20190409.html">2019年04月09日</a></li>
+                            <li><a href="Fire_20190408.html">2019年04月08日</a></li>
+                            <li><a href="Fire_20190406.html">2019年04月06日</a></li>
+                            <li><a href="Fire_20190405.html">2019年04月05日</a></li>
+                            <li><a href="Fire_20190401.html">2019年04月01日</a></li>
+                            <li><a href="Fire_20190329.html">2019年03月29日</a></li>
+                            <li><a href="Fire_20190319.html">2019年03月19日</a></li>
+                            <li><a href="Fire_20190315.html">2019年03月15日</a></li>
+                            <li><a href="Fire_20190314.html">2019年03月14日</a></li>
+                            <li><a href="Fire_20190301.html">2019年03月01日</a></li>
+                            <li><a href="Fire_20190228.html">2019年02月28日</a></li>
+                            <li><a href="Fire_20190225.html">2019年02月25日</a></li>
+                            <li><a href="Fire_20190216.html">2019年02月16日</a></li>
+                            <li><a href="Fire_20190208.html">2019年02月08日</a></li>
+                            <li><a href="Fire_20190207.html">2019年02月07日</a></li>
+			         </ul>
+                        </li>
+                        <!-- li><a href="style-guide.html" title="">Styles</a></li>
+                        <li><a href="about.html" title="">About</a></li -->
+                    </ul> <!-- end header__nav -->
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+                </nav> <!-- end header__nav-wrap -->
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+    </section> <!-- end s-pageheader -->
+    <!-- s-content    ================================================== -->
+    <section class="s-content">
+        <div class="row narrow">
+            <div class="col-full s-content__header" data-aos="fade-up">
+                <h1>『迷惑行為』2019年06月19日の投稿動画</h1>
+            </div>
+        </div>
+        <div class="row masonry-wrap">
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141324829401870336/pu/vid/1280x720/7Dxp_xtCbhynj6ev.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@moronnoseidab2</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>風呂無印2750きたああああああああああ！！！！！
+共闘してくれた味方さん。迷惑かけてすみませんでした...</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1140433209622061056/pu/vid/720x1280/HNVjYNpNl5lUjiX4.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@SoreikeOnePunch</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>危ないやろ
+子供の遊ぶ場所を奪うな
+#拡散希望
+#拡散希望迷惑
+#小火騒ぎ
+#火遊び
+#迷惑</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141274774296907777/pu/vid/1280x720/a79cZ16-f7wvrhLQ.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@PhsxoaCrQrWONqm</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>と    言うことで
+町田 光うるさくて大迷惑です。
+#町田光
+#シュートボクシング
+#橋本道場
+#うるさくて大迷惑</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141237418881888256/pu/vid/640x360/ltiR7p3iVRojoDHt.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@hamhamsters</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>死傷者なかったとはいえ、状況判断のできないアホのせいでとんだ迷惑だな
+
+小田急線 踏切で車と衝突し脱線　神奈川 厚木
+午後３時まえ、神奈川県厚木市船子の小田急線の踏切で、立往生していた車に下りの快速急行が衝突し、列車が脱線しているということです。</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141336916677156864/pu/vid/592x1280/Xwi14Vylb9aqY9uO.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@bitch____joy</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>男と遊んでないで練習くらいしろよ
+ほかのメンバーに大迷惑だろwwww
+普通に許される行為ではない
+あまりにも酷すぎる
+とっとと芸能界から消えろ
+ナメてんじゃねえよ
+#outjoy</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141287021291298816/pu/vid/1280x720/CkTIVADfTfCkqILI.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@s14yamamoto</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>軽くマフラーサウンド録ってみた
+近所迷惑になるので３０００回転まで
+音量には注意してください</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141338971839987713/pu/vid/720x1280/LBEU82U3D2hWsiHv.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@Rider_34pote</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>我が家の洗濯機が荒ぶってすんごい音出してるんですけど
+隣人に迷惑だろなーゴメンナサイ(´･ω･&#x60;)</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141250024397053952/pu/vid/720x1280/0BMmcR08rlSGxEkP.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@neta_fireMovies</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>電車の迷惑乗客は後を絶たんな。
+
+こんな奴と絶対乗り合わせたくない。
+
+これもよく燃えそうだ。</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141095350461034496/pu/vid/1280x720/H3VajFfwGQgQ1i9a.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@p1103q</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>日曜のトミン弟子も走りました。今回初級に台数が集中、彼は本来初級ですがスタッフからの中級要請を快諾。中級で極力迷惑が掛からない様に全力で走る！との経緯。結果邪魔にはなりましたが私は頑張ったと思います。自己記録30秒7を出した弟子の渾身の走り。赤いスパーダです。どうぞご覧下さいm(__)m</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141262724858466304/pu/vid/720x1280/6OZGQ_gqeUKHdgqJ.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@Lazuli_Amethyst</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>迷惑な緑</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141222434768445441/pu/vid/720x1280/-i7hshRjofL8Nrr8.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@poppi_bami</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>福岡あちーな、移動はいつもこう…。迷惑極まりない</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141213088139505667/pu/vid/1280x720/r4Drt0cB5_C-yp6k.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@ImmatureCrafter</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>再び失礼します。
+先ほど編集アプリについてお話させていただいた者です。
+たまたま動画素材を持っていたので、
+誠に勝手ではありますが、
+切抜き動画を作らせていただきました。
+
+ご迷惑でなければご自由にお使いください(？)</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141185366436614144/pu/vid/720x1280/Wtd8u18c_rnzqBk7.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@NRS__SSM</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>続き(途中迷惑メールが来ました。それは隠しました)</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141180814958497793/pu/vid/202x360/YqiUBPu9k0lLVpO3.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@Abcha3069</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>この女も歳の頃、18〜19くらいだろうか。こうゆう奴が何の病気もなく健康体であるとしたら神は不公平過ぎるね。
+#迷惑 #拡散希望</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141137898281951232/pu/vid/640x360/nHqaHaSZuZ_d6cO4.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@shop_yoo</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>＊ schedule ＊
+(link: https://www.yooshop.net/schedule/) yooshop.net/schedule/
+
+《 6月 》
+19日(水) 20日(木)
+21日(金) 23日(日)
+
+&quot; 営業時間 11:00 - 19:00 &quot;
+
+22日(土) は
+11:00 - 15:00 までの
+営業になります。
+
+お客様・作家様には
+ご迷惑をお掛け致します。
+
+よろしくお願い致します *
+
+#雑貨屋</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141134730361856001/pu/vid/1280x720/gtqGPU5zw4zGE8c3.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@pinkudama</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>サンコウチョウのスサー
+こっそり写してたら羽根繕いしてた！
+途中から迷惑カメラマンが音立てて来たから逃げられちゃった
+
+ #文太の野鳥散歩</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141102696620888064/pu/vid/664x1080/RjQExXv-kl4KlzMT.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@YNC37208999</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>迷惑な。</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                    <div class="s-content__media col-full">
+                        <div class="video-container">
+                            <video preload="none" width="100%" controls>
+                                <source src="https://video.twimg.com/ext_tw_video/1141082101246124032/pu/vid/1280x720/AbXz57GXS5X_p67K.mp4 " type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="entry__thumb">
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <sup><span class="yy_date">2019年06月19日</span></sup>
+                            <sup><span class="yy_date">カテゴリ: 迷惑行為</span></sup>
+                        </div>
+                        <div class="entry__info">
+                            <h3><span class="yy_author">@axgxexmxoxxx</span></h3>
+                        </div>
+                        <div class="entry__excerpt">
+                            <h5>迷惑行為</h5><br>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="Annoying_20190618.html"><span class="yy_author">前の日の動画を見る</span></a>                                 <br><a href="Annoying_20190620.html"><span class="yy_author">次の日の動画を見る</span></a>                                 <br><a href="DriveRecorder_TOP.html"><span class="yy_author">『ドラレコ』のTOPページに移動</span></a>                                 <br><a href="Budgie_TOP.html"><span class="yy_author">『インコ』のTOPページに移動</span></a>                                 <br><a href="Drone_TOP.html"><span class="yy_author">『ドローン』のTOPページに移動</span></a>                                 <br><a href="Annoying_TOP.html"><span class="yy_author">『迷惑行為』のTOPページに移動</span></a>                                 <br><a href="GoPro_TOP.html"><span class="yy_author">『ゴープロ』のTOPページに移動</span></a>                                 <br><a href="Timelapse_TOP.html"><span class="yy_author">『タイムラプス』のTOPページに移動</span></a>                                 <br><a href="Flooded_TOP.html"><span class="yy_author">『冠水』のTOPページに移動</span></a>                                 <br><a href="Fire_TOP.html"><span class="yy_author">『火事』のTOPページに移動</span></a>                             </span>
+                        </div>
+                    </div>
+                </article> <!-- end article -->
+            </div> <!-- end masonry -->
+        </div> <!-- end masonry-wrap -->
+    </section>
+    <footer class="s-footer">
+        <div class="s-footer__main">
+            <div class="row">
+            </div>
+        </div> <!-- end s-footer__main -->
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Philosophy 2018</span>                         <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
+                    </div>
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+    </footer> <!-- end s-footer -->
+    <!-- preloader    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- Java Script    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

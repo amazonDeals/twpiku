@@ -1,75 +1,48 @@
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<style>
-@media (min-width: 34em) {
-  .card-columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
-}
-
-@media (min-width: 48em) {
-  .card-columns {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-  }
-}
-
-@media (min-width: 62em) {
-  .card-columns {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-  }
-}
-
-@media (min-width: 75em) {
-  .card-columns {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-  }
-}
+<head>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4.2.1/dist/masonry.pkgd.min.js"></script>
+  <style>
 </style>
-<div class="container mt-3 mb-5">
-  <div class="card-columns transaction">
-    <div id="card-p-id-1" class="card product-card">
-      <img class="card-img-top noselect" src="https://via.placeholder.com/120" />
-      <div class="card-body">
-        <h5 class="card-title mb-0">Title</h5>
-        <p class="card-text mt-0">
-          <i class="f-14">
-                    Subtitle
-                  </i>
-        </p>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet
-        </p>
-        <p>
-          <strong>Price: 2$</strong>
-          <br/>
-          <strong>Stock: 5</strong>
-        </p>
-        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-1" class="badge badge-light" data-product-id="1">0</span>
-              </button>
-      </div>
-      <div id="undo-p-id-1" class="card-footer text-muted text-center ccs-undo-selection animated d-none noselect">
-        <div class="ccs-undo-selection-inner noselect">
-          <i class="fas fa-eraser"></i> Undo selection
-        </div>
+
+<body>
+  <div class="container">
+    <div class="grid-index">
+      <!-- ウインドウサイズごとにグリッドサイズを定義。スマホだと横に1つ、タブレットだと2つ、PCだと3つ並べる -->
+      <div class="grid-sizer col-12 col-sm-6 col-lg-4"></div>
+
+      <div id="card-p-id-1" class="card product-card">
+	<img class="card-img-top noselect" src="https://via.placeholder.com/120" />
+	<div class="card-body">
+          <h5 class="card-title mb-0">Title</h5>
+          <p class="card-text mt-0">
+            <i class="f-14">
+              Subtitle
+            </i>
+          </p>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet
+          </p>
+          <p>
+            <strong>Price: 2$</strong>
+            <br/>
+            <strong>Stock: 5</strong>
+          </p>
+        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-4" class="badge badge-light" data-product-id="4">0</span>
+        </button>
+	</div>
       </div>
     </div>
+
     <div id="card-p-id-2" class="card product-card">
       <img class="card-img-top noselect" src="https://via.placeholder.com/150" />
       <div class="card-body">
         <h5 class="card-title mb-0">Title</h5>
         <p class="card-text mt-0">
           <i class="f-14">
-                      Subtitle
-                  </i>
+            Subtitle
+          </i>
         </p>
         <p class="card-text">
           Descrconsetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l
@@ -79,23 +52,19 @@
           <br/>
           <strong>Stock: 5</strong>
         </p>
-        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-2" class="badge badge-light" data-product-id="2">0</span>
-              </button>
-      </div>
-      <div id="undo-p-id-2" class="card-footer text-muted text-center ccs-undo-selection animated d-none noselect">
-        <div class="ccs-undo-selection-inner noselect">
-          <i class="fas fa-eraser"></i> Undo selection
-        </div>
+        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-4" class="badge badge-light" data-product-id="4">0</span>
+        </button>
       </div>
     </div>
+
     <div id="card-p-id-3" class="card product-card">
       <img class="card-img-top noselect" src="https://via.placeholder.com/100" />
       <div class="card-body">
         <h5 class="card-title mb-0">Title</h5>
         <p class="card-text mt-0">
           <i class="f-14">
-                      Subtitle
-                  </i>
+            Subtitle
+          </i>
         </p>
         <p class="card-text">
           Descr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eiption
@@ -105,23 +74,19 @@
           <br/>
           <strong>Stock: 5</strong>
         </p>
-        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-3" class="badge badge-light" data-product-id="3">0</span>
-              </button>
-      </div>
-      <div id="undo-p-id-3" class="card-footer text-muted text-center ccs-undo-selection animated d-none noselect">
-        <div class="ccs-undo-selection-inner noselect">
-          <i class="fas fa-eraser"></i> Undo selection
-        </div>
+        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-4" class="badge badge-light" data-product-id="4">0</span>
+        </button>
       </div>
     </div>
+
     <div id="card-p-id-4" class="card product-card">
       <img class="card-img-top noselect" src="https://via.placeholder.com/180" />
       <div class="card-body">
         <h5 class="card-title mb-0">Title</h5>
         <p class="card-text mt-0">
           <i class="f-14">
-                      Subtitle
-                  </i>
+            Subtitle
+          </i>
         </p>
         <p class="card-text">
           Lorem ipsum consetetur sadipscing elitr, sed diam nonumy e
@@ -132,14 +97,10 @@
           <strong>Stock: 5</strong>
         </p>
         <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-4" class="badge badge-light" data-product-id="4">0</span>
-              </button>
-      </div>
-      <div id="undo-p-id-4" class="card-footer text-muted text-center ccs-undo-selection animated d-none noselect">
-        <div class="ccs-undo-selection-inner noselect">
-          <i class="fas fa-eraser"></i> Undo selection
-        </div>
+        </button>
       </div>
     </div>
+
     <div id="card-p-id-5" class="card product-card">
       <img class="card-img-top noselect" src="https://via.placeholder.com/110" />
       <div class="card-body">
@@ -157,13 +118,8 @@
           <br/>
           <strong>Stock: 5</strong>
         </p>
-        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-5" class="badge badge-light" data-product-id="5">0</span>
-              </button>
-      </div>
-      <div id="undo-p-id-5" class="card-footer text-muted text-center ccs-undo-selection animated d-none noselect">
-        <div class="ccs-undo-selection-inner noselect">
-          <i class="fas fa-eraser"></i> Undo selection
-        </div>
+        <button type="button" class="btn btn-primary d-block center-margin-0-auto ccs-product-counter">Select <span id="add-p-id-4" class="badge badge-light" data-product-id="4">0</span>
+        </button>
       </div>
     </div>
   </div>

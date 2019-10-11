@@ -4,7 +4,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <style>
     body {
-      @media (min-width:600px) { 
+      @media (min-width:640px) and (orientation: portrait) { 
         .card-columns {
           -webkit-column-count: 1;
           -moz-column-count: 1;
@@ -12,7 +12,15 @@
         }
       }
 
-      @media (min-width:1200px) { 
+      @media (min-width:1280px) and (orientation: portrait) { 
+        .card-columns {
+          -webkit-column-count: 1;
+          -moz-column-count: 1;
+          column-count: 1;
+        }
+      }
+      
+      @media (min-width:1280px) and (orientation: landscape) { 
         .card-columns {
           -webkit-column-count: 2;
           -moz-column-count: 2;
@@ -20,7 +28,15 @@
         }
       }
       
-      @media (min-width:1800px) {
+      @media (min-width:1800px) and (orientation: portrait) {
+        .card-columns {
+          -webkit-column-count: 2;
+          -moz-column-count: 2;
+          column-count: 2;
+        }
+      }
+
+      @media (min-width:1800px) (orientation: landscape) { 
         .card-columns {
           -webkit-column-count: 3;
           -moz-column-count: 3;

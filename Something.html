@@ -23,30 +23,38 @@
     </script>
 </head>
 <style>
-    @media (min-width: 576px) {
+    @media (min-width: 34em) {
         .card-columns {
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+            column-count: 1;
+        }
+    }
+    @media (min-width: 48em) {
+        .card-columns {
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
             column-count: 2;
         }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 62em) {
         .card-columns {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
             column-count: 3;
         }
     }
-    @media (min-width: 992px) {
+    @media (min-width: 75em) {
         .card-columns {
+            -webkit-column-count: 4;
+            -moz-column-count: 4;
             column-count: 4;
-        }
-    }
-    @media (min-width: 1200px) {
-        .card-columns {
-            column-count: 5;
         }
     }
 </style>
 <body id="top">
     <div>
-        <h2 align="center">2019-10-12 13:47:49 なんかやってるの動画検索結果<h2>
+        <h2 align="center">2019-10-12 14:07:21 なんかやってるの動画検索結果<h2>
     </div>
     <div class="container mt-3 mb-5">
         <div class="card-columns transaction">

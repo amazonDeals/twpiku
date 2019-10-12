@@ -25,19 +25,26 @@
 <style>
     @media screen {
         .card-columns {
+            -webkit-column-count: 4;
+            -moz-column-count: 4;
+            column-count: 4;
+        }
+    }
+    @media screen and (max-width: 1920px) {
+        .card-columns {
             -webkit-column-count: 3;
             -moz-column-count: 3;
             column-count: 3;
         }
     }
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 1280px) {
         .card-columns {
             -webkit-column-count: 2;
             -moz-column-count: 2;
             column-count: 2;
         }
     }
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 640px) {
         .card-columns {
             -webkit-column-count: 1;
             -moz-column-count: 1;
@@ -63,7 +70,7 @@
 </style>
 <body id="top">
     <div>
-        <h2 align="center">2019-10-12 19:38:09<br>タイムラプスの<br>動画検索結果<h2><hr>
+        <h2 align="center">2019-10-12 20:00:59<br>タイムラプスの<br>動画検索結果<h2><hr>
     </div>
     <div class="container mt-3 mb-5">
         <div class="card-columns transaction">
